@@ -1,5 +1,7 @@
 # planter
 ### 반려 식물 돌봄 매칭 서비스, planter
+![플랜터1 (1)](https://github.com/user-attachments/assets/a1b36e90-d912-4d57-bc01-a873f5faf221)
+
 ```혹시, 반려 식물에 관심 있으세요?
 최근 반려 식물이 떠오르고 있다는 사실 알고 계신가요?  
 
