@@ -73,7 +73,7 @@
 
 <br />
 
-## 담당 역할(프론트엔드 개발자)
+## 담당 업무(프론트엔드 개발자)
 - `로그인 기능 구현`
 
 <img src="https://github.com/user-attachments/assets/9dffd8e9-53a3-408b-944d-3a288bc1d1cd" width="360" />
