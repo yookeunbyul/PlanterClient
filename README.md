@@ -12,16 +12,24 @@
 ## 앱 소개
 <img src="https://user-images.githubusercontent.com/77619905/204073577-96f18b5f-8d23-450c-8ca2-3c2a7be80fb7.png" width="160" height="346"><img src="https://user-images.githubusercontent.com/77619905/203629433-cf2e82ae-31e8-4b39-8559-076ea6dcd81f.png" width="160" height="346"><img src="https://user-images.githubusercontent.com/77619905/204073586-e23a6f2e-75c8-4fdf-94b3-94ba578e19b8.png" width="160" height="346"><img src="https://user-images.githubusercontent.com/77619905/203629439-a4fb828c-4e58-4122-86b1-ba9a97090f3e.png" width="160" height="346"><img src="https://user-images.githubusercontent.com/77619905/203629441-5f0a3d28-06c1-4b60-8199-ae9d12e1cc80.png" width="160" height="346">
 
-## 앱 스크린샷
-<img src="https://user-images.githubusercontent.com/77619905/202889242-0a771999-c4d1-4993-bd94-a48e58b48624.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889505-d69b8f73-c20d-40b4-8f2c-62c4c1a80ee9.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889507-6ceaa0c3-4813-4eb3-a9fd-33a577a7dc42.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889522-46f109f6-90ae-40f5-94c1-dfa72e2994d6.png" width="200" height="433">
+```
+주변 식물집사와 전문가에게 반려식물을 믿고 맡길 수 있도록 도와주는 반려식물 매칭 케어 플랫폼
+```
 
-<img src="https://user-images.githubusercontent.com/77619905/202889543-1f0ce6bd-5f04-4c6a-8468-c70bbeae309e.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889545-a65b72a9-2c0e-47be-a8bb-d0d780c61f0a.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889550-b97853d4-b238-4b13-ad5f-0d449337a369.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889558-7d94edf9-b47a-41c2-a775-683c6e1ec0fe.png" width="200" height="433">
+- Google Play : https://play.google.com/store/apps/details?id=com.planter
+- 개발 기간 : 2022.09 - 2022.11
+- 팀 구성 : 기획자 1명, 디자이너 1명, FE 2명, BE 1명
+- CMC Demo Day 행사 총 10팀 중 4위
 
-<img src="https://user-images.githubusercontent.com/77619905/202889579-55f82181-d8ef-4403-a385-205f3add8214.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889583-b741654c-d57c-496d-b643-2c312d34cbfe.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889584-06de7bd8-e671-4ef7-b54a-add63642f952.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889589-ab1bd3fa-5eab-4da4-83e2-f547cefec47b.png" width="200" height="433">
+<br />
 
-<img src="https://user-images.githubusercontent.com/77619905/202889593-6da0ca0c-e1e6-415e-bc5c-a54e887f9582.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889603-1403e78c-5dd5-4024-b993-a37b26462ac0.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889608-9b674f57-8229-4dda-aadd-f8c44db7c40d.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889616-ff637bcb-ef9a-4860-88c9-ca6186ce53ae.png" width="200" height="433">
+## Tech Stack
+ - React Native
+ - Typescript
+ - Recoil
+ - StyleSheet
 
-<img src="https://user-images.githubusercontent.com/77619905/202889619-256d3ddd-5dc4-4e01-8d5a-e86b7d11b8a9.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889623-5d2ad54b-4183-4955-9ee3-4c7830889e41.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889738-59d0cc8b-a50e-4e1b-8381-dec3a401e759.png" width="200" height="433"><img src="https://user-images.githubusercontent.com/77619905/202889739-927027e5-b8c4-42bd-b17c-b9a2e849cddb.png" width="200" height="433">
+<br />
 
 ## 기능 설명
 #### 로그인
@@ -63,6 +71,50 @@
 매칭 허용 여부, 사진, 소개글, 케어 서비스 종류, 사진 제공 여부 정보를 입력하여 매칭 탭의 식물 집사 및 전문가 리스트에 노출 여부를 정할 수 있는 화면
 ```
 
+<br />
+
+## 담당 역할(프론트엔드 개발자)
+- `로그인 기능 구현`
+
+<img src="https://github.com/user-attachments/assets/9dffd8e9-53a3-408b-944d-3a288bc1d1cd" width="360" />
+
+  - useRef를 통해 터치로 인한 API 중복 호출 방지하여 이벤트 처리 개선
+    - 변화를 감지하면서도 리렌더링을 발생시키지 않는 useRef를 활용하여 불필요한 리렌더링 방지
+
+<br />
+
+-  `내 주변 식물 집사/전문가 피드 구현`
+
+<img src="https://github.com/user-attachments/assets/daa51198-aa4c-44e1-9f93-185dff43f91f" width="360" />
+
+  - FlatList를 사용하여 내 주변 식물 집사/전문가 피드 구현
+    - 스크롤 시 필요한 데이터만 불러와 메모리 소비 감소
+  - RefreshControl을 이용해 위로 스크롤할 때마다 새로운 피드를 받아오도록 구현하여 사용자 경험 개선
+
+<br />
+
+-  `쪽지 기능 구현`
+
+<img src="https://github.com/user-attachments/assets/3dba6e46-dcbd-4dfd-8152-fced8c308509" width="360" />
+
+  - 이미지를 첨부한 쪽지 작성 및 전송 기능 구현
+    - react-native-image-crop-picker를 활용해 이미지 편집 후 FormData로 서버 전송 구현
+  - 쪽지 전송 후 페이지 전환 시 쪽지 리스트 미업데이트 현상 발생
+    - React Navigation 공식 문서를 통해 웹과 모바일 앱의 화면 전환 방식 차이 파악
+    - useEffect를 useFocusEffect로 대체하여 실시간 쪽지 리스트 업데이트 구현
+
+<br />
+
+-  `마이페이지 구현`
+
+<img src="https://github.com/user-attachments/assets/3b86a180-ebb9-4246-9c11-fae08c7cedf9" width="360" />
+
+  - 마이페이지 Tap 구현
+    - useNavigate와 useParams를 활용하여 데이터 기반 화면 동적 업데이트
+    - URL 매개변수를 통한 즉각적인 화면 업데이트 구현 및 사용자 경험 개선
+   
+<br />
+
 ## 폴더 구조
 ```
 📂src
@@ -99,7 +151,3 @@
  ┣ 📂utils
  ┗ App.tsx
  ```
- ## Tech Stack
- - React Native
- - Typescript
- - Recoil
